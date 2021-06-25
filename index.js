@@ -48,8 +48,6 @@ question10 = {
   answer: "2"
 };
 
-// var questionSet = [question1, question2]
-
 function quiz(question, answer){
   var userAns = readlineSync.question(question)
   if(userAns === answer){
